@@ -1,0 +1,54 @@
+<opening tag>content</closing tag> = all -> element 
+
+void element => forbidden from putting any content inside the tag
+
+<hr /> - horizontal rule element
+
+<br /> - break element
+
+do - <p>para1</p>
+     <p>para2</p>
+
+don't - <p>
+        para1 <br />
+        para2 <br />
+        </p>
+
+nested list - list > list 
+
+the anchor element =>
+
+<a href="google.com"> Google </a>
+   attribute name = attribute value 
+
+//only text not include number
+    <ol>
+       <li><a href="">one</a></li>
+       <li><a href="">one</a></li>
+       <li><a href="">one</a></li>
+    </ol>
+
+<img src="" alt=""  />
+absoulute path => start with https
+relative path => ./ and ../
+same directiory => we can use ./
+
+The HTML Boilerplate
+
+<!DOCTYPE html>
+<html lang="en">  => language-english
+<head>
+<meta charset="UTF-8">
+<title> </title> 
+</head>
+
+<body>
+</body>
+</html>
+
+
+web hosting process =>  
+
+local development (laptop) -> web server -> internet
+
+github => public, add a read me file
